@@ -1,0 +1,24 @@
+{
+  "name": "git-test",
+  "version": "1.0.0",
+  "description": "Git and NPM",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npm run lite",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pxg1216/my-nucamp-git-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pxg1216/my-nucamp-git-repo/issues"
+  },
+  "homepage": "https://github.com/pxg1216/my-nucamp-git-repo#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  }
+}
